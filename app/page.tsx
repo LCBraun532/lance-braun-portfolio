@@ -397,6 +397,7 @@ export default function Home() {
               href={contact.linkedin}
               target="_blank"
               rel="noreferrer"
+              className="text-brass hover:underline underline-offset-4"
             >
               &rarr; LinkedIn Profile
             </a>
