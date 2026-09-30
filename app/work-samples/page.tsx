@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { WorkSamplesGrid } from "@/components/work-samples-grid";
+import { MobileNav } from "@/components/mobile-nav";
 import { contact } from "@/lib/content";
 
 export const metadata: Metadata = {
@@ -35,6 +36,15 @@ export default function WorkSamplesPage() {
               Contact
             </Link>
           </nav>
+          <MobileNav
+            links={[
+              { label: "Work", href: "/#work" },
+              { label: "Skills", href: "/#skills" },
+              { label: "Samples", href: "/work-samples", isCurrent: true },
+              { label: "FAQ", href: "/#faq" },
+              { label: "Contact", href: "/#contact" },
+            ]}
+          />
         </div>
       </header>
 
