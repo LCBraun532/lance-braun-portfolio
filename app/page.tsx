@@ -16,6 +16,7 @@ import {
 import { testimonials } from "@/lib/testimonials";
 import { CaseStudyAccordion } from "@/components/case-study-accordion";
 import { FaqItem } from "@/components/faq-item";
+import { MobileNav } from "@/components/mobile-nav";
 
 export default function Home() {
   return (
@@ -49,6 +50,15 @@ export default function Home() {
               Contact
             </a>
           </nav>
+          <MobileNav
+            links={[
+              { label: "Work", href: "#work" },
+              { label: "Skills", href: "#skills" },
+              { label: "Samples", href: "/work-samples", isRouterLink: true },
+              { label: "FAQ", href: "#faq" },
+              { label: "Contact", href: "#contact" },
+            ]}
+          />
         </div>
       </header>
 
