@@ -136,9 +136,9 @@ export const workSamples: WorkSample[] = [
     title: "FICO Industry Insights Thought Leadership Audio Blog Series",
     role: "Producer & AI Content Strategist",
     bullets: [
-      "Scripted and produced AI-assisted audio blog content extending the FICO® Score Industry Insights franchise to new channels and formats",
-      "Applied SME voice cloning to maintain subject matter authenticity while dramatically compressing production timelines",
-      "Demonstrated how AI-integrated workflows can scale editorial output without sacrificing quality or compliance standards",
+      "Scripted and produced an AI-assisted audio blog series that extended the FICO® Score Industry Insights franchise to new channels and formats, making production, approvals, and time to launch 75% faster than the podcast series.",
+      "Cloned and trained SME author voices with their approval (Cartesia.ai, Podcastle.ai, Adobe Podcast) to preserve subject-matter authenticity, teaching each voice to pronounce technical terms correctly, then produced in Adobe Audition and Audacity and distributed through Riverside.fm.",
+      "Built quality and compliance into every release: each episode was checked for audio quality, listenability, and episode-to-episode consistency, used only rights-cleared Pixabay music beds, and moved through an accelerated manager, SME, and Legal approval before distribution.",
     ],
     links: [],
     audioSamples: [
