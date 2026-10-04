@@ -325,7 +325,7 @@ export const faqs = [
 ];
 
 export const contact = {
-  email: "lancebraun@gmail.com",
+  email: "lancecbraun@gmail.com",
   phone: "414 803 0364",
   location: "Wauwatosa, WI",
   linkedin: "https://www.linkedin.com/in/lcbraun/",
