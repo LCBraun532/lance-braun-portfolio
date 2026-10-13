@@ -91,6 +91,7 @@ export const techStack = [
   "ChatGPT",
   "Claude",
   "Perplexity",
+  "NotebookLM",
   "Writer",
   "Wondercraft.ai",
   "Adobe Creative Suite",
