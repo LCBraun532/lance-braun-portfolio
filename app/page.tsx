@@ -318,7 +318,7 @@ export default function Home() {
               Active coursework in platforms built for scaling on-brand
               content and sales enablement workflows.
             </p>
-            <div className="grid sm:grid-cols-3 gap-4">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {currentCoursework.map((c) => (
                 <div
                   key={c.name}
