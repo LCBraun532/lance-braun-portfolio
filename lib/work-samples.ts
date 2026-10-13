@@ -14,15 +14,11 @@ export type WorkSample = {
 export const workSamples: WorkSample[] = [
   {
     category: "Content Operations",
-    company: "FICO & Fiserv",
+    company: "FICO",
     companyLogo:
       "https://galaxy-prod.tlcdn.com/view/user_31pwIcYr2gZbOf4vg7NTzlabdJX/09fdc7d55937430fb4b340f6165e03dc.png",
-    companyLogos: [
-      "https://galaxy-prod.tlcdn.com/view/user_31pwIcYr2gZbOf4vg7NTzlabdJX/09fdc7d55937430fb4b340f6165e03dc.png",
-      "https://galaxy-prod.tlcdn.com/view/user_31pwIcYr2gZbOf4vg7NTzlabdJX/ba2418b2251340ad85c089ac14646200.png",
-    ],
     title: "Content Creation Workflow: Expert-Led, AI-Assisted, Three Approval Gates",
-    role: "Senior Manager, Brand Content Strategy (FICO) · Digital Content Strategist (Fiserv)",
+    role: "Senior Manager, Brand Content Strategy",
     bullets: [
       "Six-step process from brief to audit, built for regulated financial services content where every claim is reviewed before it ships.",
       "Three approval gates (SME review, Legal & Compliance, Brand & Stakeholder sign-off), with revision loops that keep deadlines intact.",
