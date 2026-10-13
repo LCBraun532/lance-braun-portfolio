@@ -130,12 +130,6 @@ export const techStackGroups = [
 
 export const certifications = [
   "AI for Product Marketers — Pragmatic Institute",
-  "Google Analytics",
-  "Google Ads Display",
-  "Google Ads Paid Search",
-  "Google Ads Fundamentals",
-  "LinkedIn Learning SEO",
-  "HubSpot Content Marketing",
 ];
 
 export const currentCoursework = [
@@ -151,6 +145,10 @@ export const currentCoursework = [
     name: "AirOps",
     focus:
       "Rapid On-Brand Content Deployment, Brand Consistency & Marketing Workflow Automation",
+  },
+  {
+    name: "Figma",
+    focus: "Design Collaboration, Content Layouts & Prototyping",
   },
 ];
 
