@@ -6,7 +6,7 @@ import {
   philosophyCards,
   byTheNumbers,
   competencies,
-  techStack,
+  techStackGroups,
   certifications,
   currentCoursework,
   caseStudies,
@@ -224,14 +224,23 @@ export default function Home() {
           <h2 className="font-display text-2xl md:text-4xl leading-tight max-w-2xl mb-10">
             Platforms, tools and AI systems I run content through.
           </h2>
-          <div className="flex flex-wrap gap-3">
-            {techStack.map((t) => (
-              <span
-                key={t}
-                className="text-sm px-4 py-2 rounded-full border border-paper/25 text-paper/80 hover:border-brass hover:text-brass transition-colors"
-              >
-                {t}
-              </span>
+          <div className="space-y-10">
+            {techStackGroups.map((g) => (
+              <div key={g.label}>
+                <p className="font-mono-label uppercase tracking-[0.15em] text-xs text-paper/50 mb-4">
+                  {g.label}
+                </p>
+                <div className="flex flex-wrap gap-3">
+                  {g.items.map((t) => (
+                    <span
+                      key={t}
+                      className="text-sm px-4 py-2 rounded-full border border-paper/25 text-paper/80 hover:border-brass hover:text-brass transition-colors"
+                    >
+                      {t}
+                    </span>
+                  ))}
+                </div>
+              </div>
             ))}
           </div>
         </div>
