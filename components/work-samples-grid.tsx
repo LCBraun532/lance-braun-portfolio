@@ -40,14 +40,18 @@ export function WorkSamplesGrid() {
               <span className="text-[11px] font-mono-label uppercase tracking-wide px-2.5 py-1 border border-hairline rounded-full text-ink/50">
                 {w.category}
               </span>
-              <div className="relative w-9 h-9 shrink-0">
-                <Image
-                  src={w.companyLogo}
-                  alt={w.company}
-                  fill
-                  sizes="36px"
-                  className="object-contain"
-                />
+              <div className="flex items-center gap-2 shrink-0">
+                {(w.companyLogos ?? [w.companyLogo]).map((logo) => (
+                  <div key={logo} className="relative w-9 h-9 shrink-0">
+                    <Image
+                      src={logo}
+                      alt={w.company}
+                      fill
+                      sizes="36px"
+                      className="object-contain"
+                    />
+                  </div>
+                ))}
               </div>
             </div>
 
@@ -67,6 +71,23 @@ export function WorkSamplesGrid() {
                 </li>
               ))}
             </ul>
+
+            {w.diagram && (
+              <a
+                href={w.diagram.href}
+                target="_blank"
+                rel="noreferrer"
+                className="block mb-6 rounded-xl overflow-hidden border border-hairline"
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={w.diagram.src}
+                  alt={w.diagram.alt}
+                  loading="lazy"
+                  className="w-full h-auto block"
+                />
+              </a>
+            )}
 
             {w.audioSamples && w.audioSamples.length > 0 && (
               <div className="space-y-4 mb-6 pt-4 border-t border-hairline">
