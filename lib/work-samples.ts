@@ -7,9 +7,40 @@ export type WorkSample = {
   bullets: string[];
   links: { label: string; href: string }[];
   audioSamples?: { label: string; url: string; duration: string }[];
+  companyLogos?: string[];
+  diagram?: { src: string; alt: string; href: string };
 };
 
 export const workSamples: WorkSample[] = [
+  {
+    category: "Content Operations",
+    company: "FICO & Fiserv",
+    companyLogo:
+      "https://galaxy-prod.tlcdn.com/view/user_31pwIcYr2gZbOf4vg7NTzlabdJX/09fdc7d55937430fb4b340f6165e03dc.png",
+    companyLogos: [
+      "https://galaxy-prod.tlcdn.com/view/user_31pwIcYr2gZbOf4vg7NTzlabdJX/09fdc7d55937430fb4b340f6165e03dc.png",
+      "https://galaxy-prod.tlcdn.com/view/user_31pwIcYr2gZbOf4vg7NTzlabdJX/ba2418b2251340ad85c089ac14646200.png",
+    ],
+    title: "Content Creation Workflow: Expert-Led, AI-Assisted, Three Approval Gates",
+    role: "Senior Manager, Brand Content Strategy (FICO) · Digital Content Strategist (Fiserv)",
+    bullets: [
+      "Six-step process from brief to audit, built for regulated financial services content where every claim is reviewed before it ships.",
+      "Three approval gates (SME review, Legal & Compliance, Brand & Stakeholder sign-off), with revision loops that keep deadlines intact.",
+      "AI speeds research and first drafts; expert and legal review keep it accurate. The same process launched FICO’s AI audio blogs 75% faster than its podcast series.",
+      "Each published asset is repurposed into four to five pieces, and quarterly audits feed what we learn into the next brief.",
+    ],
+    links: [
+      {
+        label: "View the workflow",
+        href: "https://g.tlcdn.com/view/28e8ba219b2b426a85d08d087a2f19fd.png",
+      },
+    ],
+    diagram: {
+      src: "https://g.tlcdn.com/view/28e8ba219b2b426a85d08d087a2f19fd.png",
+      href: "https://g.tlcdn.com/view/28e8ba219b2b426a85d08d087a2f19fd.png",
+      alt: "Diagram of Lance Braun’s six-step content creation workflow: Intake & Brief, Expert Input, Draft & Edit, SME Review, Legal & Compliance review, Production, Brand & Stakeholder approval, Publish & Repurpose, and Measure & Audit, with revision loops back to drafting and production.",
+    },
+  },
   {
     category: "Case Study",
     company: "Fiserv",
