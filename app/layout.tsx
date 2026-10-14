@@ -24,9 +24,9 @@ const interMono = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Lance Braun | Senior Content Marketing Leader",
+  title: "Lance Braun | Senior Content Strategist & Content Marketing Manager",
   description:
-    "Lance Braun is a senior content marketing leader with 15 years building high-impact content engines across SaaS, fintech, and regulated enterprise technology.",
+    "Lance Braun is a senior content strategist and content marketing manager with 15+ years in fintech, SaaS, and regulated B2B technology, including FICO and Fiserv.",
 };
 
 export default function RootLayout({
