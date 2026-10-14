@@ -70,7 +70,8 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6 md:px-10 grid md:grid-cols-[1.3fr_0.9fr] gap-14 items-center">
           <div>
             <p className="font-mono-label uppercase tracking-[0.2em] text-brass text-xs md:text-sm mb-6">
-              Senior Content Marketing Leader
+              <span className="whitespace-nowrap">Senior Content Strategist ·</span>{" "}
+              <span className="whitespace-nowrap">Content Marketing Manager</span>
             </p>
             <h1 className="font-display text-4xl sm:text-5xl md:text-6xl leading-[1.08] mb-8">
               Transforming complexity into{" "}
