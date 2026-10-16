@@ -26,7 +26,7 @@ const interMono = Inter({
 export const metadata: Metadata = {
   title: "Lance Braun | Senior Content Strategist & Content Marketing Manager",
   description:
-    "Lance Braun is a senior content strategist and content marketing manager with 15+ years in fintech, SaaS, and regulated B2B technology, including FICO and Fiserv.",
+    "Lance Braun is a senior content strategist and content marketing manager with 15+ years in fintech and B2B tech, including FICO and Fiserv.",
 };
 
 export default function RootLayout({
