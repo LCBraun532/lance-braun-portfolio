@@ -62,9 +62,9 @@ export const workSamples: WorkSample[] = [
     companyLogo:
       "https://galaxy-prod.tlcdn.com/view/user_31pwIcYr2gZbOf4vg7NTzlabdJX/ba2418b2251340ad85c089ac14646200.png",
     title: "The Growth of Digital Banking",
-    role: "Author & Designer",
+    role: "Ghostwriter & Designer. Written for the byline of Jaime Dominguez, Director, Client Solutions Consulting.",
     bullets: [
-      "Authored and designed a thought leadership POV paper synthesizing Fiserv proprietary research, Plancomm & Accenture survey data, and pandemic-era consumer behavioral shifts",
+      "Ghostwrote and designed a thought leadership POV paper synthesizing Fiserv proprietary research, Plancomm & Accenture survey data, and pandemic-era consumer behavioral shifts",
       "Argued a clear strategic framework — Engagement, Efficiency, Insights — to help financial institutions rethink and elevate their digital strategies",
       "Positioned Fiserv as a category authority on digital transformation, supporting demand generation campaigns and complex financial institution sales",
     ],
