@@ -151,7 +151,7 @@ export const workSamples: WorkSample[] = [
     links: [
       {
         label: "Listen to Episode",
-        href: "https://www.fico.com/en/latest-thinking/podcast/fico-score-10t-early-adoption-benefits-and-strategies",
+        href: "https://podcasts.apple.com/us/podcast/roundtable-fico-score-10t-early-adoption-benefits-and/id1707436796?i=1000688905153",
       },
     ],
   },
